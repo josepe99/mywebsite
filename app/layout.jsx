@@ -1,5 +1,6 @@
 import './globals.css'
 import Head from '@/app/Head';
+import Scripts from './Scripts';
 import { Inter } from 'next/font/google'
 import 'bootstrap/dist/css/bootstrap.css'
 import Header from '@/app/components/Header';
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
         <Head />
         <Header />
         {children}
+        <Scripts />
       </body>
     </html>
   )

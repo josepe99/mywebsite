@@ -1,9 +1,9 @@
 import About from '@/app/components/About/About';
-import Hero from '@/app/components/Hero';
-import Resume from './Resume/Resume';
 import Portafolio from './Portafolio/Portafolio';
+import Hero from '@/app/components/Hero/Hero';
 import Services from './Services/Services';
 import Contact from './Contact/Contact';
+import Resume from './Resume/Resume';
 
 
 const Body = () => {

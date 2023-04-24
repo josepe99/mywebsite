@@ -1,4 +1,4 @@
 const MY_NAME = "Joseph";
 const NICKNAME = "Josepe";
 
-export default [MY_NAME, NICKNAME]
+export {MY_NAME, NICKNAME}

@@ -9,7 +9,7 @@ const About = () => {
 
           <div class="section-title">
             <h2>About</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <p>A highly motivated and skilled full stack developer, passionate about creating efficient and scalable web applications. Proficient in Python, JavaScript, and Dart, with a strong foundation in Next.js, Flutter, Django, and Express frameworks. Seeking a challenging opportunity to apply my diverse skillset and contribute to a team that values continuous learning and personal development.</p>
           </div>
 
           <div class="row">
@@ -17,33 +17,28 @@ const About = () => {
               <img src="static/img/profile-img.jpg" class="img-fluid" alt="" />
             </div>
             <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-              <h3>UI/UX Designer &amp; Web Developer.</h3>
+              <h3>Web Developer  &amp; Mobile Developer</h3>
               <p class="fst-italic">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua.
+                Let me tell you a little more about the things I've done so far.
               </p>
               <div class="row">
                 <div class="col-lg-6">
                   <ul>
-                    <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li>
-                    <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
-                    <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456 7890</span></li>
-                    <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York, USA</span></li>
+                    <li><i class="bi bi-chevron-right"></i><strong>+150</strong><span>Enpoints developed</span></li>
+                    <li><i class="bi bi-chevron-right"></i><strong>+500</strong><span>Commits</span></li>
+                    <li><i class="bi bi-chevron-right"></i><strong>+200</strong><span>Merge requests</span></li>
+                    <li><i class="bi bi-chevron-right"></i><strong>+100</strong><span>Tests runned</span></li>
                   </ul>
                 </div>
                 <div class="col-lg-6">
                   <ul>
-                    <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
-                    <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
-                    <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>email@example.com</span></li>
-                    <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                    <li><i class="bi bi-chevron-right"></i><strong>+10</strong><span>Projects participated</span></li>
+                    <li><i class="bi bi-chevron-right"></i><strong>3 contributions</strong> <span>To other programmers</span></li>
+                    <li><i class="bi bi-chevron-right"></i><strong></strong><span>In stackoverflow</span></li>
+                    <li><i class="bi bi-chevron-right"></i><strong></strong> <span>Available</span></li>
                   </ul>
                 </div>
               </div>
-              <p>
-                Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-                Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
-              </p>
             </div>
           </div>
 

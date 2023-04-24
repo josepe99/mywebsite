@@ -17,8 +17,6 @@ const Body = () => {
       <About />
       {/* <!-- End About Section --> */}
 
-      
-
       {/* <!-- ======= Resume Section ======= --> */}
       <Resume />
       {/* <!-- End Resume Section --> */}

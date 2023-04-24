@@ -1,3 +1,6 @@
+import ResumeItem from './components/ResumeItem';
+import { MY_NAME } from '@/app/constants';
+
 const Resume = () => {
   return (
     <section id="resume" class="resume">
@@ -5,60 +8,64 @@ const Resume = () => {
 
         <div class="section-title">
           <h2>Resume</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>I am going to talk you about somes of my experiences and trajectory in the technology world, I have more projects but for personal reasons I can talk in public about that</p>
         </div>
 
         <div class="row">
           <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title">Sumary</h3>
-            <div class="resume-item pb-0">
-              <h4>Alex Smith</h4>
-              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
-              <ul>
-                <li>Portland par 127,Orlando, FL</li>
-                <li>(123) 456-7891</li>
-                <li>alice.barkley@example.com</li>
-              </ul>
-            </div>
+            <ResumeItem 
+              title="Education"
+              subtitle="Computer Engineering"
+              time="2019 - actually"
+              place="National University of Asuncion, Paraguay"
+              resume="I am at 3th years of the career, I studied basic programing concepts like queues, stacks trees, B+Tree, AVL Trees using C and Java, I studied software development methodologies and improving agile"
+              items={["I learned programing paradigms",
+                      "I learned script asymptotic cost",
+                      "Databases concepts"]}
+            />
 
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Master of Fine Arts &amp; Graphic Design</h4>
-              <h5>2015 - 2016</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
-            </div>
-            <div class="resume-item">
-              <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-              <h5>2010 - 2014</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
-            </div>
+            <ResumeItem 
+              title="Job Experience"
+              subtitle="Full stack developer"
+              time="2022"
+              place="Eko Factory S.R.L, Paraguay"
+              resume="I worked 4 months as full stack developer in 2 projects"
+              items={["Api rest development with laravel 8",
+                      "Api rest consuming with axios in javascript",
+                      "Front-end development with Vuejs 2",
+                      "Endpoints and templates development with django",
+                      "Teltonika gps decode with nodejs",
+                      "SQL functions with PGSQL language"]}
+            />
+
           </div>
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Senior graphic design specialist</h4>
-              <h5>2019 - Present</h5>
-              <p><em>Experion, New York, NY </em></p>
-              <ul>
-                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Graphic design specialist</h4>
-              <h5>2017 - 2018</h5>
-              <p><em>Stepping Stone Advertising, New York, NY</em></p>
-              <ul>
-                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
-              </ul>
-            </div>
+            <ResumeItem 
+              title="Job Experience"
+              subtitle="Full stack developer"
+              time="Actually"
+              place="Databiz S.A., Paraguay"
+              resume="Actually I have 7 months in this enterprise developing endpoints, schedules, fron-end fixes, back-end fixes and features. I am working in various projects: National Police dataentry, Facebook Bussiness profile scrapper"
+              items={["Api rest with django restapi and express",
+                      "Schedules with airflow",
+                      "Front-end with vuejs",
+                      "Express and sequelize in back-end",
+                      "Django api rest",
+                      "JWT"]}
+            />
+
+            <ResumeItem 
+              title="Individual Jobs"
+              subtitle="Web and mobile developer"
+              time="Actually"
+              place="In my house"
+              resume="For train my skills I am helping to a friend with his e-commerce development, for this project I am using Next-js, flutter and supabase."
+              items={["Api rest with next-js",
+                      "Authentication with next-auth",
+                      "Algolia for search in the web",
+                      "JWT strategy",
+                      "Mobile development with flutter"]}
+            />
           </div>
         </div>
 

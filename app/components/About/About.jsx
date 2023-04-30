@@ -1,6 +1,3 @@
-import Skills from './components/Skills';
-import Facts from './components/Facts';
-
 const About = () => {
   return (
     <>
@@ -44,14 +41,6 @@ const About = () => {
 
         </div>
       </section>
-
-      {/* <!-- ======= Facts Section ======= --> */}
-      <Facts />
-      {/* <!-- End Facts Section --> */}
-
-      {/* <!-- ======= Skills Section ======= --> */}
-      <Skills />
-      {/* <!-- End Skills Section --> */}
     </>
   )
 }

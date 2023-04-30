@@ -3,16 +3,16 @@ import { MY_NAME } from '@/app/constants';
 
 const Resume = () => {
   return (
-    <section id="resume" class="resume">
-      <div class="container">
+    <section id="resume" className="resume">
+      <div className="container">
 
-        <div class="section-title">
+        <div className="section-title">
           <h2>Resume</h2>
           <p>I am going to talk you about somes of my experiences and trajectory in the technology world, I have more projects but for personal reasons I can talk in public about that</p>
         </div>
 
-        <div class="row">
-          <div class="col-lg-6" data-aos="fade-up">
+        <div className="row">
+          <div className="col-lg-6" data-aos="fade-up">
             <ResumeItem 
               title="Education"
               subtitle="Computer Engineering"
@@ -39,7 +39,7 @@ const Resume = () => {
             />
 
           </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <ResumeItem 
               title="Job Experience"
               subtitle="Full stack developer"

@@ -1,8 +1,8 @@
 const ResumeItem = (props) =>{
   return (
     <>
-      <h3 class="resume-title">{ props.title }</h3>
-      <div class="resume-item">
+      <h3 className="resume-title">{ props.title }</h3>
+      <div className="resume-item">
         <h4>{ props.subtitle }</h4>
         <h5>{ props.time }</h5>
         <p><em>{ props.place }</em></p>

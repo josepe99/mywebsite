@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      classNameName="d-flex align-items-center justify-content-center min-vh-100"
+      className="d-flex align-items-center justify-content-center min-vh-100"
     >
       <div className="hero-container text-center" data-aos="fade-in">
         <div className='mt-5 mx-5'>

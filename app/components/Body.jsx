@@ -1,5 +1,4 @@
 import About from '@/app/components/About/About';
-import Portafolio from './Portafolio/Portafolio';
 import Hero from '@/app/components/Hero/Hero';
 import Services from './Services/Services';
 import Contact from './Contact/Contact';
@@ -20,10 +19,6 @@ const Body = () => {
       {/* <!-- ======= Resume Section ======= --> */}
       <Resume />
       {/* <!-- End Resume Section --> */}
-
-      {/* <!-- ======= Portfolio Section ======= --> */}
-      <Portafolio />
-      {/* <!-- End Portfolio Section --> */}
 
       {/* <!-- ======= Services Section ======= --> */}
       <Services />

@@ -1,7 +1,7 @@
 const Head = () => {
   return (
     <head>
-      <meta charset="utf-8" />
+      <meta charSet="utf-8" />
       <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
       <title>iPortfolio Bootstrap Template - Index</title>

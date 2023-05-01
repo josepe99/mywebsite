@@ -1,14 +1,26 @@
+const aboutDescription = "A highly motivated and skilled full stack developer, passionate about creating efficient and scalable web applications. Proficient in Python, JavaScript, and Dart, with a strong foundation in Next.js, Flutter, Django, and Express frameworks. Seeking a challenging opportunity to apply my diverse skillset and contribute to a team that values continuous learning and personal development."
+const firstColumn = [
+  {strong: "+150", span: "Enpoints developed"},
+  {strong: +500,span: "Commits"},
+  {strong: "+200",span: "Merge requests"},
+  {strong: "+100", span: "Test runned"}
+]
+
+const secondColumn = [
+  {strong:"+10",span:"Projects participated"},
+  {strong:"3 contributions", span:"To other programmers"},
+  {strong: null, span:"In stackoverflow"},
+  {strong: null, span:"Available"}
+]
 const About = () => {
   return (
     <>
       <section id="about" className="about">
         <div className="container">
-
           <div className="section-title">
             <h2>About</h2>
-            <p>A highly motivated and skilled full stack developer, passionate about creating efficient and scalable web applications. Proficient in Python, JavaScript, and Dart, with a strong foundation in Next.js, Flutter, Django, and Express frameworks. Seeking a challenging opportunity to apply my diverse skillset and contribute to a team that values continuous learning and personal development.</p>
+            <p>{ aboutDescription }</p>
           </div>
-
           <div className="row">
             <div className="col-lg-4" data-aos="fade-right">
               <img src="static/img/profile-img.jpg" className="img-fluid" alt="" />
@@ -21,18 +33,24 @@ const About = () => {
               <div className="row">
                 <div className="col-lg-6">
                   <ul>
-                    <li><i className="bi bi-chevron-right"></i><strong>+150</strong><span>Enpoints developed</span></li>
-                    <li><i className="bi bi-chevron-right"></i><strong>+500</strong><span>Commits</span></li>
-                    <li><i className="bi bi-chevron-right"></i><strong>+200</strong><span>Merge requests</span></li>
-                    <li><i className="bi bi-chevron-right"></i><strong>+100</strong><span>Tests runned</span></li>
+                    {firstColumn.map(row => (
+                      <li>
+                        <i className="bi bi-chevron-right"></i>
+                        <strong>{ row.strong }</strong>
+                        <span>{ row.span }</span>
+                      </li>
+                    ))}
                   </ul>
                 </div>
                 <div className="col-lg-6">
                   <ul>
-                    <li><i className="bi bi-chevron-right"></i><strong>+10</strong><span>Projects participated</span></li>
-                    <li><i className="bi bi-chevron-right"></i><strong>3 contributions</strong> <span>To other programmers</span></li>
-                    <li><i className="bi bi-chevron-right"></i><strong></strong><span>In stackoverflow</span></li>
-                    <li><i className="bi bi-chevron-right"></i><strong></strong> <span>Available</span></li>
+                    {secondColumn.map(row => (
+                      <li>
+                        <i className="bi bi-chevron-right"></i>
+                        <strong>{ row.strong }</strong>
+                        <span>{ row.span }</span>
+                      </li>
+                    ))}
                   </ul>
                 </div>
               </div>

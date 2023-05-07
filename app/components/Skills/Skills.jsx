@@ -4,7 +4,7 @@ const experiences = [
   {
     icon: "bi bi-briefcase",
     title: "Vue.js2",
-    description: "Description"
+    description: "1 year using vuejs v2 "
   }
 ]
 

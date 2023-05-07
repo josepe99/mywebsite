@@ -1,11 +1,12 @@
 import { MY_NAME } from "../constants";
+import Image from "next/image";
 
 const Header = () => {
   return (
     <header id="header">
       <div className="d-flex flex-column">
         <div className="profile">
-          <img src="/static/img/profile-img.jpg" alt="" className="img-fluid rounded-circle" />
+          <Image src="/static/img/profile-img.jpg" alt="" className="img-fluid rounded-circle" />
           <h1 className="text-light"><a href="index.html">{ MY_NAME }</a></h1>
           <div className="social-links mt-3 text-center">
             <a href="https://twitter.com/JosePe199" className="twitter"><i className="bx bxl-twitter"></i></a>

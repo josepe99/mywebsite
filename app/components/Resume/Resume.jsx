@@ -74,7 +74,8 @@ const Resume = () => {
         <div className="row">
           <div className="col-lg-6" data-aos="fade-up">
             {firstResumeList.map(resume => (
-              <ResumeItem 
+              <ResumeItem
+                key={resume.title}
                 title={ resume.title }
                 subtitle={ resume.subtitle }
                 time={ resume.time }
@@ -86,7 +87,8 @@ const Resume = () => {
           </div>
           <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             {secondResumeList.map(resume => (
-              <ResumeItem 
+              <ResumeItem
+                key={resume.title}
                 title={ resume.title }
                 subtitle={ resume.subtitle }
                 time={ resume.time }

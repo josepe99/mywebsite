@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="hero-container text-center" data-aos="fade-in">
         <div className='mt-5 mx-5'>
           <h1>{ MY_NAME }</h1>
-          <p>I'm <span className="typed" data-typed-items="Student, Developer, Book reader, Photographer"></span></p>
+          <p>I&apos;m <span className="typed" data-typed-items="Student, Developer, Book reader, Photographer"></span></p>
         </div>
       </div>
     </section>

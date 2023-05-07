@@ -22,6 +22,7 @@ const Skills = () => {
         <div className="row">
           {experiences.map(skill => (
             <Skill 
+            key={skill.title}
             title={skill.title}
               icon={skill.icon}
               description={skill.description}

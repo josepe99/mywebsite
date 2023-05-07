@@ -10,7 +10,7 @@ const ResumeItem = (props) =>{
         { props.items && (
           <ul>
             { props.items.map(item => (
-              <li>{ item }</li>
+              <li key={item}>{ item }</li>
             ))}
           </ul>
         )}

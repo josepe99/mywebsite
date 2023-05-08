@@ -2,18 +2,31 @@ import { MY_NAME } from "../constants";
 import Image from "next/image";
 
 const Header = () => {
+  const linkedinUrl = "https://www.linkedin.com/in/jos%C3%A9-cardozo-367bab158/";
+  const instagramUrl = "https://www.instagram.com/lil_josepe/";
+  const facebookUrl = "https://www.facebook.com/josepe999/";
+  const twitterUrl = "https://twitter.com/JosePe199";
+  const githubUrl = "https://github.com/josepe99";
+  const profilePhotoSize = 100;
+
   return (
     <header id="header">
       <div className="d-flex flex-column">
         <div className="profile">
-          <Image src="/static/img/profile-img.jpg" alt="" className="img-fluid rounded-circle" />
+          <Image
+            className="img-fluid rounded-circle"
+            src="/static/img/profile-img.jpg"
+            width={profilePhotoSize}
+            height={profilePhotoSize}
+            alt=""
+          />
           <h1 className="text-light"><a href="index.html">{ MY_NAME }</a></h1>
           <div className="social-links mt-3 text-center">
-            <a href="https://twitter.com/JosePe199" className="twitter"><i className="bx bxl-twitter"></i></a>
-            <a href="https://www.facebook.com/josepe999/" className="facebook"><i className="bx bxl-facebook"></i></a>
-            <a href="https://instagram.com/lil_josepe?igshid=YmMyMTA2M2Y=" className="instagram"><i className="bx bxl-instagram"></i></a>
-            <a href="https://github.com/josepe99" className="github"><i className="bx bxl-github"></i></a>
-            <a href="https://www.linkedin.com/in/jos%C3%A9-cardozo-367bab158/" className="linkedin"><i className="bx bxl-linkedin"></i></a>
+            <a href={twitterUrl} className="twitter"><i className="bx bxl-twitter"></i></a>
+            <a href={facebookUrl} className="facebook"><i className="bx bxl-facebook"></i></a>
+            <a href={instagramUrl} className="instagram"><i className="bx bxl-instagram"></i></a>
+            <a href={githubUrl} className="github"><i className="bx bxl-github"></i></a>
+            <a href={linkedinUrl} className="linkedin"><i className="bx bxl-linkedin"></i></a>
           </div>
         </div>
 

@@ -15,6 +15,7 @@ const secondColumn = [
   {strong: null, span:"Available"}
 ]
 const About = () => {
+  const profilePhotoSize = 350;
   return (
     <>
       <section id="about" className="about">
@@ -25,7 +26,13 @@ const About = () => {
           </div>
           <div className="row">
             <div className="col-lg-4" data-aos="fade-right">
-              <Image src="static/img/profile-img.jpg" className="img-fluid" alt="" />
+              <Image
+                src="/static/img/profile-img.jpg"
+                className="img-fluid"
+                width={profilePhotoSize}
+                height={profilePhotoSize}
+                alt=""
+              />
             </div>
             <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
               <h3>Web Developer  &amp; Mobile Developer</h3>

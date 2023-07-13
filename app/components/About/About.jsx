@@ -3,7 +3,7 @@ import Image from "next/image";
 const aboutDescription = "A highly motivated and skilled full stack developer, passionate about creating efficient and scalable web applications. Proficient in Python, JavaScript, and Dart, with a strong foundation in Next.js, Flutter, Django, and Express frameworks. Seeking a challenging opportunity to apply my diverse skillset and contribute to a team that values continuous learning and personal development."
 const firstColumn = [
   {strong: "+150", span: "Enpoints developed"},
-  {strong: +500,span: "Commits"},
+  {strong: "+500",span: "Commits"},
   {strong: "+200",span: "Merge requests"},
   {strong: "+100", span: "Test runned"}
 ]

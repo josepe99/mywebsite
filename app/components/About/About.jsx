@@ -26,8 +26,8 @@ const About = () => {
           </div>
           <div className="row">
             <div className="col-lg-4" data-aos="fade-right">
-              <Image
-                src="/static/img/profile-img.jpg"
+              <img
+                src="/static/img/profile-img.png"
                 className="img-fluid"
                 width={profilePhotoSize}
                 height={profilePhotoSize}

@@ -1,9 +1,9 @@
 import { MY_NAME } from "../constants";
-import Image from "next/image";
+import Link from "next/link";
 
 const Header = () => {
   const linkedinUrl = "https://www.linkedin.com/in/jos%C3%A9-cardozo-367bab158/";
-  const instagramUrl = "https://www.instagram.com/lil_josepe/";
+  const instagramUrl = "https://www.instagram.com/liljosepe/";
   const facebookUrl = "https://www.facebook.com/josepe999/";
   const twitterUrl = "https://twitter.com/JosePe199";
   const githubUrl = "https://github.com/josepe99";
@@ -13,13 +13,15 @@ const Header = () => {
     <header id="header">
       <div className="d-flex flex-column">
         <div className="profile">
-          <Image
-            className="img-fluid rounded-circle"
-            src="/static/img/profile-img.jpg"
-            width={profilePhotoSize}
-            height={profilePhotoSize}
-            alt=""
-          />
+          <Link href="#about">
+            <img
+              className="img-fluid rounded-circle"
+              src="/static/img/profile-img.png"
+              width={profilePhotoSize}
+              height={profilePhotoSize}
+              alt=""
+            />
+          </Link>
           <h1 className="text-light"><a href="index.html">{ MY_NAME }</a></h1>
           <div className="social-links mt-3 text-center">
             <a href={twitterUrl} className="twitter"><i className="bx bxl-twitter"></i></a>
